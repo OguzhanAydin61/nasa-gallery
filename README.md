@@ -3,6 +3,9 @@ An Android application that uses the [a Nasa API](https://api.nasa.gov/index.htm
 
 Min Api Level : 21
 
+## CircleCI
+[![CircleCI](https://circleci.com/gh/OguzhanAydin61/nasa-gallery/tree/master.svg?style=svg)](https://circleci.com/gh/OguzhanAydin61/nasa-gallery/tree/master)
+
 Screenshots
 -----------
 
