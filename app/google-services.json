@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "897511483155",
+    "project_id": "nasa-gallery",
+    "storage_bucket": "nasa-gallery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897511483155:android:b500aecf1edd349b3d9ce6",
+        "android_client_info": {
+          "package_name": "com.avatarosko.nasagallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897511483155-4fd7svm3qjffd1g81ptprh29mbr1do63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avatarosko.nasagallery",
+            "certificate_hash": "14bd6b04295220d1219410f62a16f944085fa42b"
+          }
+        },
+        {
+          "client_id": "897511483155-3prnb5e4keab5oduifsja9e4bgk6an72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe1YQPp5eCEtpvlHCJdnXP3f26vkommAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897511483155-3prnb5e4keab5oduifsja9e4bgk6an72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

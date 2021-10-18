@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://api.nasa.gov/mars-photos/api/</domain>
+        <domain includeSubdomains="true">api.nasa.gov/mars-photos/api</domain>
+        <domain includeSubdomains="true">mars.jpl.nasa.gov</domain>
+        <domain includeSubdomains="true">https://mars.jpl.nasa.gov/</domain>
+        <domain includeSubdomains="true">https://mars.nasa.gov/</domain>
+        <domain includeSubdomains="true">mars.nasa.gov</domain>
+    </domain-config>
+</network-security-config>

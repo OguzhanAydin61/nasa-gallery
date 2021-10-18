@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nasa Gallery</string>
+    <string name="picture_date">تاريخ التقاط الصورة</string>
+    <string name="picture_vehicle_name">اسم المركبة</string>
+    <string name="camera_name">اسم الكاميرا</string>
+    <string name="vehicle_status">حالة المركبة</string>
+    <string name="lands_date">تاريخ الهبوط</string>
+    <string name="launch_date">موعد غداء</string>
+    <string name="save">يحفظ</string>
+    <string name="unknown_error">خطأ غير معروف</string>
+    <string name="no_internet">لا انترنت</string>
+    <string name="no_data">لايوجد بيانات</string>
+</resources>

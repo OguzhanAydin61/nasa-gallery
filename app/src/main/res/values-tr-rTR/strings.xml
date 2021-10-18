@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nasa Gallery</string>
+    <string name="picture_date">Resmin çekildiği tarih</string>
+    <string name="picture_vehicle_name">Araç Adı</string>
+    <string name="camera_name">Kamera Adı</string>
+    <string name="vehicle_status">Araç Durumu</string>
+    <string name="lands_date">İniş Tarihi</string>
+    <string name="launch_date">Lansman Tarihi</string>
+    <string name="save">Kaydet</string>
+    <string name="unknown_error">Bilinmeyen Hata</string>
+    <string name="no_internet">İnternet Yok</string>
+    <string name="no_data">Veri Yok</string>
+</resources>

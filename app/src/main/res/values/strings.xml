@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nasa Gallery</string>
+    <string name="picture_date">Date the picture was taken</string>
+    <string name="picture_vehicle_name">Vehicle Name</string>
+    <string name="camera_name">Camera Name</string>
+    <string name="vehicle_status">Vehicle Status</string>
+    <string name="lands_date">Landing Date</string>
+    <string name="launch_date">Launch Date</string>
+    <string name="save">Save</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="no_internet">No Internet</string>
+    <string name="no_data">No Data</string>
+</resources>

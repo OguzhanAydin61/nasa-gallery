@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/photoVPFragment">
+
+    <fragment
+        android:id="@+id/photoVPFragment"
+        android:name="com.avatarosko.nasagallery.ui.photo.PhotoVPFragment"
+        android:label="photo_vp_fragment"
+        tools:layout="@layout/photo_vp_fragment">
+        <action
+            android:id="@+id/action_photoVPFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/detailPhotoDialog"
+        android:name="com.avatarosko.nasagallery.ui.photoDetail.DetailPhotoDialog"
+        android:label="DetailPhotoDialog">
+        <argument
+            android:name="vehicleName"
+            app:argType="string" />
+        <argument
+            android:name="imgSrc"
+            app:argType="string" />
+        <argument
+            android:name="pictureDate"
+            app:argType="string" />
+        <argument
+            android:name="cameraName"
+            app:argType="string" />
+        <argument
+            android:name="vehicleStatus"
+            app:argType="string" />
+        <argument
+            android:name="landingDate"
+            app:argType="string" />
+        <argument
+            android:name="launchDate"
+            app:argType="string" />
+    </dialog>
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.avatarosko.nasagallery.ui.filter.FilterFragment"
+        android:label="filter_fragment"
+        tools:layout="@layout/filter_fragment">
+        <argument
+            android:name="selectedFilter"
+            app:argType="com.avatarosko.nasagallery.common.model.CameraTypes"
+            app:nullable="true" />
+        <argument
+            android:name="currentRovert"
+            app:argType="com.avatarosko.nasagallery.common.model.RoverTypes" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_detailPhotoDialog"
+        app:destination="@id/detailPhotoDialog" />
+</navigation>
